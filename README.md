@@ -9,6 +9,12 @@ You can read how [here](https://angular.io/guide/creating-libraries)
 
 This library contains an angular module `ResizableModule` that allows you to resize easily panel.   
 
+# Demo
+
+
+![](screenshot.png "Click on bellow for see in action")
+
+[stackblitz](https://stackblitz.com/edit/hhangular-resizable?file=src%2Fmain.ts)
 
 ### Peer dependence
 
