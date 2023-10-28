@@ -6,25 +6,16 @@
 
 [![npm version](https://badge.fury.io/js/@hhangular%2Fresizable.svg)](https://badge.fury.io/js/@hhangular%2Fresizable)
 
-## Overview
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+## Resize your panels component effortlessly
 
-You can read how [here](https://angular.io/guide/creating-libraries)
-
-## Resize your panel component effortlessly
-
-This library contains an angular module `ResizableModule` that allows you to resize easily panel.   
+This library contains an angular module `ResizableModule` that allows you to resize easily panels.   
 
 # Demo
-
 
 ![](screenshot.png "Click on bellow for see in action")
 
 [stackblitz](https://stackblitz.com/edit/hhangular-resizable?file=src%2Fmain.ts)
 
-### Peer dependence
-
-No dependency
 
 ## Directive
 
@@ -65,6 +56,10 @@ npm install @hhangular/resizable --save
 # @hhangular/resizable
 yarn add @hhangular/resizable
 ```
+
+### Peer dependence
+
+No dependency
 
 ## Configuration
 
