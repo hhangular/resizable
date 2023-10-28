@@ -4,6 +4,8 @@
 
 [![Publish hhangular/resizable to NPM](https://github.com/hhangular/resizable/actions/workflows/tag.yml/badge.svg)](https://github.com/hhangular/resizable/actions/workflows/tag.yml)
 
+[![npm version](https://badge.fury.io/js/@hhangular%2Fresizable.svg)](https://badge.fury.io/js/@hhangular%2Fresizable)
+
 ## Overview
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
 
