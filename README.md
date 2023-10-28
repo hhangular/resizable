@@ -20,10 +20,10 @@ No dependency
 
  ```html
  <div style="display: flex; flex-direction: row">
-  <div [resizable] percent="33">
+  <div resizable [percent]="33">
     <!-- What you want here -->
   </div>
-  <div [resizable] percent="67">
+  <div resizable [percent]="67">
     <!-- What you want here -->
   </div>
  </div>
@@ -126,21 +126,21 @@ In a component template just decorate a div (or other) as follows:
 ```html
  <div style="display: flex; flex-direction: column">
   <div style="display: flex; flex-direction: row">
-    <div [resizable] percent="33">
+    <div resizable [percent]="33">
       <!-- What you want here -->
     </div>
-    <div [resizable] percent="67">
+    <div resizable [percent]="67">
       <!-- What you want here -->
     </div>
   </div>
   <div style="display: flex; flex-direction: row">
-    <div [resizable] percent="33">
+    <div resizable [percent]="33">
       <!-- What you want here -->
     </div>
-    <div [resizable] percent="33">
+    <div resizable [percent]="33">
       <!-- What you want here -->
     </div>
-    <div [resizable] percent="33">
+    <div resizable [percent]="33">
       <!-- What you want here -->
     </div>
   </div>
@@ -152,7 +152,7 @@ The container flex direction set the resizable direction
 ## Inputs
 
 ```html
-<div [resizable] percent="33" min="200px" max="50%">
+<div resizable [percent]="33" min="200px" max="50%">
 ```
 
 | name | description | type | sample |
@@ -165,7 +165,7 @@ The container flex direction set the resizable direction
 ## Outputs
 
 ```html
-<div [resizable] percent="33" (percentChange)="percentChangeHandler($event)">
+<div resizable [percent]="33" (percentChange)="percentChangeHandler($event)">
 ```
 
 | name | description | type | sample |
