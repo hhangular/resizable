@@ -50,7 +50,7 @@
     "ng-packagr": "^16.2.0",
     "rxjs": "~7.8.0",
     "typescript": "~5.2.2",
-    "zone.js": "~0.14.0"
+    "zone.js": "~0.14.2"
   },
   "sideEffects": false
 }
