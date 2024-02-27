@@ -8,7 +8,7 @@
 
 ## Resize your panels component effortlessly
 
-This library contains an angular module `ResizableModule` that allows you to resize easily panels.   
+This library contains an angular **standalone** component `ResizableDirective` that allows you to resize easily panels.   
 
 # Demo
 
@@ -63,8 +63,25 @@ No dependency
 
 ## Configuration
 
-Just import the module `ResizableModule` and you can use the `directive`.   
-You can do this in your `AppModule` or in your `SharedModule` indifferently.
+Just import the standalone component `ResizableDirective` and you can use the `directive`.   
+You can do this in your `Components` or `AppModule` or in your `SharedModule` indifferently.
+
+`Component.ts`
+```typescript
+@Component({
+  selector: 'app-demo',
+  standalone: true,
+  imports: [ResizableDirective],
+  template: `
+  ...
+  `,
+})
+export class Component {
+  ...
+}
+```
+
+---
 
 `AppModule.ts`
 ```typescript
@@ -74,7 +91,7 @@ import {CommonModule} from '@angular/common';
 import {HttpClientModule} from '@angular/common/http';
 import {AppComponent} from './app.component';
 // ================= IMPORT =================
-import {ResizableModule} from '@hhangular/resizable';
+import {ResizableDirective} from '@hhangular/resizable';
 
 @NgModule({
   declarations: [
@@ -85,7 +102,7 @@ import {ResizableModule} from '@hhangular/resizable';
     CommonModule,
     HttpClientModule,
 // ================= IMPORT =================
-    ResizableModule,
+    ResizableDirective,
   ],
   bootstrap: [AppComponent],
   providers: []
@@ -101,17 +118,17 @@ export class AppModule {
 import {CommonModule} from '@angular/common';
 import {NgModule} from '@angular/core';
 // ================= IMPORT =================
-import {ResizableModule} from '@hhangular/resizable';
+import {ResizableDirective} from '@hhangular/resizable';
 
 @NgModule({
   imports: [
     CommonModule,
 // ================= IMPORT =================
-    ResizableModule,
+    ResizableDirective,
   ],
   exports: [
 // ================= EXPORT =================
-    ResizableModule,
+    ResizableDirective,
   ],
   declarations: [],
 })
