@@ -2,7 +2,8 @@ import { AfterViewInit, ComponentRef, Directive, ElementRef, EventEmitter, Input
 import { DragHandleComponent } from "./drag-handle.component";
 
 @Directive({
-    selector: '[resizable]'
+    selector: '[resizable]',
+    standalone: true
 })
 export class ResizableDirective implements AfterViewInit, OnDestroy {
 

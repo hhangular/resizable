@@ -2,6 +2,7 @@ import { Component, HostBinding, HostListener, Input, ViewContainerRef } from "@
 
 @Component({
     selector: 'app-drag-handle',
+    standalone: true,
     template: `
         <span></span>
       `,
@@ -24,7 +25,7 @@ import { Component, HostBinding, HostListener, Input, ViewContainerRef } from "@
             width: 8px;
             span {
                 border-width: 0 1px;
-                top: 50%; 
+                top: 50%;
                 margin-top: -10px;
                 height: 20px;
                 width: 4px;
@@ -35,7 +36,7 @@ import { Component, HostBinding, HostListener, Input, ViewContainerRef } from "@
             height: 8px;
             span {
                 border-width: 1px 0;
-                left: 50%; 
+                left: 50%;
                 margin-left: -10px;
                 height: 4px;
                 width: 20px;
