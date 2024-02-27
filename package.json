@@ -1,6 +1,6 @@
 {
   "name": "@hhangular/resizable",
-  "version": "1.17.1",
+  "version": "1.17.2",
   "author": "Achache francois",
   "license": "MIT",
   "description": "resizable module for angular 16x by hhfrancois",
@@ -26,8 +26,7 @@
   "dependencies": {
     "tslib": "^2.6.2"
   },
-  "peerDependencies": {
-  },
+  "peerDependencies": {},
   "devDependencies": {
     "@angular/common": "^17.2.2",
     "@angular-devkit/build-angular": "^17.2.1",
