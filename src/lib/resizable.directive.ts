@@ -19,6 +19,8 @@ export class ResizableDirective implements AfterViewInit, OnDestroy {
         private renderer: Renderer2
     ) {
         this.el.nativeElement.style.overflow = 'hidden';
+        this.el.nativeElement.style.whiteSpace = 'nowrap';
+        this.el.nativeElement.style.textOverflow = 'clip';
         this.observer = new MutationObserver((mutations: MutationRecord[]) => {
             mutations.forEach((mutation: MutationRecord) => {
                 if (mutation.attributeName === 'percent') {
